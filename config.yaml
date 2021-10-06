@@ -11,7 +11,7 @@ params:
 
 artifacts:
   artifacts_dir: artifacts
-  model_dir: model
+  models_dir: models
   plots_dir: plots
   checkpoint_dir: checkpoint
 
