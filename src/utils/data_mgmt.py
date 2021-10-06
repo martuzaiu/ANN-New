@@ -8,6 +8,8 @@ def get_data(validation_datasize):
     X_valid, X_train = X_train_full[:validation_datasize] / 255., X_train_full[validation_datasize:] / 255.
     y_valid, y_train = y_train_full[:validation_datasize], y_train_full[validation_datasize:]
 
+    
+
     # scale the test set as well
     X_test = X_test / 255.
 

@@ -1,9 +1,9 @@
 params:
-  epochs: 30
+  epochs: 1
   batch_size: 32
-  no_classes: 10
+  num_classes: 10
   loss_functions: sparse_categorical_crossentropy
-  matrics: accuracy
+  metrics: accuracy
   optimizer: SGD
   validation_datasize: 5000
 
